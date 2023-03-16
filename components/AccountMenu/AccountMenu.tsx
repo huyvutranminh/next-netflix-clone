@@ -17,7 +17,7 @@ export const AccountMenu = ({ visible }: AccountMenuProps) => {
         <div className="px-3 group/item flex flex-row gap-3 items-center w-full">
           <img className="w-8 rounded-md" src="/images/default-green.png"></img>
           <p className="text-white text-sm group-hover/item:underline">
-            user?.name
+            {user?.name}
           </p>
         </div>
         <hr className="bg-gray-600 border-0 h-px my-4" />
